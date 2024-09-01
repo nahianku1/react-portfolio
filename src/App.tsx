@@ -50,50 +50,55 @@ function App() {
             </NavLink>
           </div>
         </nav>
-        <nav className="flex  justify-evenly items-center   z-10 fixed bg-slate-600 w-full h-[60px] bottom-0 left-0 gap-3 md:hidden">
+        <nav className="flex  justify-evenly items-center   z-10 absolute bg-slate-600 w-full h-[60px] bottom-0 left-0 gap-3 md:hidden">
           <li className="list-none relative">
-            <NavLink to={'/'}
+            <NavLink
+              to={"/"}
               className={({ isActive }: { isActive: boolean }) =>
-                `bottom relative flex flex-col items-center justify-center ${isActive ? 'active' :""}`
+                `bottom relative flex flex-col items-center justify-center ${
+                  isActive ? "active" : ""
+                }`
               }
-             
             >
               <span className="icon">
                 <div className="indicator"></div>
-                <FaHouse/>
+                <FaHouse />
               </span>
               <span className="text">Home</span>
             </NavLink>
           </li>
           <li className="list-none">
-            <NavLink to="/skills"
+            <NavLink
+              to="/skills"
               className="bottom flex flex-col items-center justify-center"
             >
               <span className="icon">
                 <div className="indicator"></div>
-                <GiSkills/>
+                <GiSkills />
               </span>
               <span className="text">Skills</span>
             </NavLink>
           </li>
           <li className="list-none">
-            <NavLink to="/projects"
+            <NavLink
+              to="/projects"
               className="bottom flex flex-col items-center justify-center"
             >
               <span className="icon">
                 <div className="indicator"></div>
-               <FaLayerGroup/>
+                <FaLayerGroup />
               </span>
               <span className="text">Projects</span>
             </NavLink>
           </li>
           <li className="list-none">
-            <NavLink to="/contact"
+            <NavLink
+              to="/contact"
               className="bottom flex flex-col items-center justify-center"
             >
               <span className="icon">
                 <div className="indicator"></div>
-               <FaMessage/>
+                <FaMessage />
               </span>
               <span className="text">Contact</span>
             </NavLink>
