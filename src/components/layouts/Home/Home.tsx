@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Home() {
   return (
     <div className="px-[80px]  pt-[40px] md:pt-[100px] pb-[130px] md:pb-0">
-      <div className="flex flex-wrap-reverse gap-4 md:gap-0 justify-center md:flex-nowrap md:justify-between">
+      <div className="flex flex-wrap-reverse mt-[30px] gap-4 md:gap-0 justify-center md:flex-nowrap md:justify-between">
         <div className="flex flex-col items-start gap-2">
           <motion.p
             initial={{ x: "-100vw" }}
@@ -25,7 +25,7 @@ function Home() {
             transition={{ type: "tween", duration: 1.3, easing: "ease" }}
           >
             <TypeAnimation
-              className="text-[1.5rem] md:text-[2rem] text-white"
+              className="text-[1.3rem] md:text-[2rem] text-white"
               sequence={[
                 "I am a React Developer.",
                 1000,
