@@ -1,8 +1,6 @@
-import React from "react";
 import Container from "../Container/Container";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import { animate } from "framer-motion/dom";
 
 function Home() {
   return (
