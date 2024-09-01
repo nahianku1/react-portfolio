@@ -129,17 +129,7 @@ function Home() {
           className="min-w-[300px] md:min-w-[400px] md:mr-[80px] min-h-[300px] md:h-[400px] rounded-full  relative bg-gradient-to-b from-[#14ffe9] via-[#ffeb3b] to-[#ff00e0] "
         >
           <div className="absolute z-30 bg-slate-800 rounded-full inset-2 bg-no-repeat bg-cover bg-[url(/himel.png)]"></div>
-          <motion.div
-            initial={{ transform: "rotate(0deg)" }}
-            animate={{ transform: "rotate(360deg)" }}
-            transition={{
-              delay: 1,
-              duration: 4,
-              repeat: Infinity,
-              repeatType: "mirror",
-            }}
-            className="absolute w-full h-full z-20 rounded-full  bg-gradient-to-b from-[#14ffe9] via-[#ffeb3b] to-[#ff00e0] [filter:blur(30px)]"
-          ></motion.div>
+          <div className="absolute w-full h-full z-20 rounded-full  bg-gradient-to-b from-[#14ffe9] via-[#ffeb3b] to-[#ff00e0] [filter:blur(30px)]"></div>
         </motion.div>
       </div>
     </div>
