@@ -15,7 +15,7 @@ function Home() {
               delay: 0.8,
               easing: "ease",
             }}
-            className="text-red-400 text-[2.5rem]"
+            className="text-red-400 text-[1.7rem] md:text-[2.5rem]"
           >
             Nahian Bin Islam
           </motion.p>
