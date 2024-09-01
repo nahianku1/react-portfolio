@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <Container>
-      <div className="flex flex-wrap-reverse gap-4 md:gap-0 justify-center md:flex-nowrap  md:justify-between">
+    <div className="px-[80px]  pt-[40px] md:pt-[100px] pb-[130px] md:pb-0">
+      <div className="flex flex-wrap-reverse gap-4 md:gap-0 justify-center md:flex-nowrap md:justify-between">
         <div className="flex flex-col items-start gap-2">
           <motion.p
             initial={{ x: "-100vw" }}
@@ -143,7 +143,7 @@ function Home() {
           ></motion.div>
         </motion.div>
       </div>
-    </Container>
+    </div>
   );
 }
 
