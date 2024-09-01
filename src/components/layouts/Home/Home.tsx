@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Home() {
   return (
     <div className="px-[80px]  pt-[40px] md:pt-[100px] pb-[130px] md:pb-0">
-      <div className="flex flex-wrap-reverse mt-[30px] gap-4 md:gap-0 justify-center md:flex-nowrap md:justify-between">
+      <div className="flex flex-wrap-reverse gap-4 md:gap-0 justify-center md:flex-nowrap md:justify-between">
         <div className="flex flex-col items-start gap-2">
           <motion.p
             initial={{ x: "-100vw" }}
@@ -126,7 +126,7 @@ function Home() {
           initial={{ y: "-100vh" }}
           animate={{ y: 0 }}
           transition={{ type: "tween", duration: 1.3, easing: "ease" }}
-          className="min-w-[300px] md:min-w-[400px] md:mr-[80px] min-h-[300px] md:h-[400px] rounded-full  relative bg-gradient-to-b from-[#14ffe9] via-[#ffeb3b] to-[#ff00e0] "
+          className="min-w-[300px] mb-[35px] md:mb-0 md:min-w-[400px] md:mr-[80px] min-h-[300px] md:h-[400px] rounded-full  relative bg-gradient-to-b from-[#14ffe9] via-[#ffeb3b] to-[#ff00e0] "
         >
           <div className="absolute z-30 bg-slate-800 rounded-full inset-2 bg-no-repeat bg-cover bg-[url(/himel.png)]"></div>
           <div className="absolute w-full h-full z-20 rounded-full  bg-gradient-to-b from-[#14ffe9] via-[#ffeb3b] to-[#ff00e0] [filter:blur(30px)]"></div>
